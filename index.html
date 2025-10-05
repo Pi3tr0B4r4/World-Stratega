@@ -1,0 +1,36 @@
+html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Stratega – Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>World Stratega (Demo)</h1>
+  </header>
+
+  <main>
+    <div id="game-area">
+      <div id="map">
+        <!-- Mappa semplificata -->
+        <button class="country" data-country="Italia">Italia</button>
+        <button class="country" data-country="Francia">Francia</button>
+        <button class="country" data-country="Spagna">Spagna</button>
+      </div>
+
+      <div id="info">
+        <p>Seleziona un paese per interagire.</p>
+      </div>
+
+      <div id="actions" style="display: none;">
+        <button id="action-invade">Invadi</button>
+        <button id="action-ally">Crea alleanza</button>
+      </div>
+    </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
